@@ -1,0 +1,90 @@
+{
+	"Done": "Готово.",
+	"UnknownError": "Неизвестная ошибка",
+	"ConvertingSubtitles": "Конвертация субтитров...",
+	"SearchingDuplicatedSubtitles": "Поиск дубликатов субтитров...",
+	"FoundDuplicatedDialogs": "Найденные дубликаты диалогов:",
+	"CompilingTextures": "Компиляция текстур...",
+	"CompletedIn": "Завершено за {0} мин. {1} сек.",
+	"Compiled": "Скомпилировано",
+	"Gothic2NotR": "Готика 2: Ночь Ворона",
+
+	"MinimalVersionRequired": "Требуется версия не меньше {0} для запуска проекта!",
+	
+	"FoundNoMatchingFiles": "Подходящие файлы не найдены: {0} (строка {1})",
+	
+	"Options.UsingPredefined": "Используются стандартные настройки ({0}): {1}",
+		
+	"Hooks.Run": "Запуск хука: {0}",
+	"Hooks.Run.WaitingForEnd": "Ожидание завершения...",
+	"Hooks.Run.Error": "Ошибка запуска хука: {0}",
+	"Hooks.Run.ErrorCode": "Хук завершился с кодом ошибки: {0}",
+	
+	"Update.CheckingAvailableUpdate": "Проверка наличия обновлений...",
+	"Update.FailedCheck": "Не получилось проверить обновления. Проверьте доступ к интернету.",
+	"Update.FailedDownload": "Ошибка при загрузке обновления. Проверьте доступ к интернету.",
+	"Update.Notification": "Доступно обновление ({0}). Для загрузки запустите",
+	"Update.AlreadyUpdated": "Gothic Mod Build Tool обновлён до актуальной версии.",
+	"Update.NewUpdateAvailable": "Доступно обновление",
+	"Update.Version": "Версия",
+	"Update.DoYouWantToUpdate": "Хотите скачать обновление ({0})?",
+	"Update.Downloading": "Загрузка...",
+	"Update.Ready": "Обновлено",
+
+	"Config.Error": "Неизвестная ошибка конфигурации: {0}",
+	"Config.Error.DidNotFound": "Ошибка конфигурации: файл конфигурации не найден",
+	"Config.Error.ParsingError": "Ошибка парсинга файла конфигурации: {0}",
+	"Config.Error.RootDirDidNotFound": "Путь до игры Gothic/Gothic 2 Ночь Ворона ({0}) не существует!",
+	"Config.Error.AssetsDirDidNotFound": "Папка ассетов ({0}) не существует!",
+	"Config.Error.PathDidNotFound": "Путь ({0}) не существует!",
+
+	"Config.Error.RootDirNotConfigured": "Путь к главной директории игры не задан в конфигурационном файле!",
+	"Config.Error.AssetsNotConfigured": "Путь к ресурсам проекта не задан в конфигурационном файле!",
+	"Config.Error.DefaultWorldNotConfigured": "Мир по умолчанию (ZEN) не задан в конфигурационном файле!",
+	"Config.Error.ModVdfOutputNotConfigured": "Путь для сохранения пакета модификации не задан в конфигурационном файле!",
+
+	"Config.Error.ProjectNameNotConfigured": "Название проекта не задано в конфигурационном файле!",
+
+	"GetTool.Error": "{0} не найден. Переустановите приложение.",
+
+	"Gothic.Error.DidNotFoundExe": "Не найден исполняемый файл игры Готика или Готика 2: Ночь Ворона!",
+	"Gothic.Error.AlreadyRunning": "Игра {0} уже запущена!",
+	"Gothic.RunningWithParameters": "Запуск игры {0} с параметрами: {1}",
+	"Gothic.Running": "Запуск игры {0}...",
+	"Gothic.CompilingAssets": "Компиляция ресурсов...",
+	"Gothic.IniOverrideWrongFormat": "Неверный формат переопределения значений конфигурационного файла игры ({0})!",
+	"Gothic.AlreadyClosedWarning": "Процесс игры Gothic уже завершён!",
+
+	"Spacer.Running": "Запуск Spacer...",
+	"Spacer.RunningWithParameters": "Запуск Spacer с параметрами: {0}",
+	"Spacer.Error.AlreadyRunning": "Spacer уже запущен!",
+
+	"Install.UnpackingOriginalAssets": "Распаковка оригинальных ресурсов...",
+	"Install.CopyingFiles": "Копирование файлов, указанных в конфигурационном файле...",
+	"Install.PreparingOriginalAssets": "Подготовка оригинальных ресурсов...",
+
+	"Install.Error.Reinstall.RequireFullTest": "При переустановке требуется полный тест или полная компиляция!",
+	"Install.Error.RequireFullTest": "При первом запуске приложения или при изменении конфигурационного файла требуется полный тест или полная компиляция!",
+	"Install.Error.Reinstall.RequireMergeAll": "При переустановке необходимо выбрать опцию объединения всех ресурсов, чтобы избежать ошибок из-за их отсутствия!",
+	"Install.Error.RequireMergeAll": "При первом запуске приложения или при изменении конфигурационного файла необходимо выбрать опцию объединения всех ресурсов, чтобы избежать ошибок из-за их отсутствия.",
+
+	"Install.Error.RunFullTest": "Запустите программу с параметром `--full`.",
+	"Install.Error.RunMergeAll": "Запустите программу с опцией `--merge=all`.",
+
+	"Install.LastConfigPathChanged.FirstRun": "Первый запуск приложения.",
+	"Install.LastConfigPathChanged.ConfigChanged": "Обнаружено изменение конфигурационного файла.",
+
+	"Test.Error.RequireReinstall": "Оригинальные ресурсы игры ({0}) не найдены. Требуется переустановка. Запустите программу с параметром `--reinstall`.",
+	"Test.Error.RequireReparse": "Для полного теста требуется парсинг скриптов.",
+
+	"Merge.Merging": "Объединение",
+
+	"VDF.PreparingFiles": "Подготовка файлов...",
+	"VDF.Building": "Сборка пакета VDF...",
+
+	"Scripts": "скрипты",
+	"Worlds": "миры",
+	"Sounds": "звуки",
+
+	"Only": "только"
+}

@@ -39,7 +39,7 @@
 
 This project was developed primarily for the purpose of assisting the SoulFire team with the development of [The Chronicles of Myrtana].
 
-Tool available in English <img src="https://www.crwflags.com/fotw/images/g/gb.gif" width = "25px">, Polish <img src="https://www.crwflags.com/fotw/images/p/pl.gif" width = "25px"> and Slovak <img src="https://www.crwflags.com/fotw/images/s/sk.gif" width = "25px">.
+Tool available in English <img src="https://www.crwflags.com/fotw/images/g/gb.gif" width = "25px">, Polish <img src="https://www.crwflags.com/fotw/images/p/pl.gif" width = "25px">, Slovak <img src="https://www.crwflags.com/fotw/images/s/sk.gif" width = "25px"> and Russian.
 
 ## Table of Contents
 
@@ -220,7 +220,7 @@ At this moment the only way to use the tool is command line interface. GUI appli
 
 | Parameter 								| Description 																																| Default value
 | ----------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------- | ---------
-| `-L <en\|pl\|sk>, --lang=<en\|pl\|sk>`	| Set language of console output. Available: English (`en`), Polish (`pl`) and Slovak (`sk`).												| Control Panel -> Regional Settings
+| `-L <en\|pl\|sk>, --lang=<en\|pl\|sk>`	| Set language of console output. Available: English (`en`), Polish (`pl`), Slovak (`sk`) and Russian (ru).												| Control Panel -> Regional Settings
 | `--help`								    | Print short descriptions of parameters.																									| N/A
 | `-V <level>, --verbosity=<level>`		    | Set verbosity level of console output. Levels: quiet\|minimal\|normal\|detailed\|diagnostic.												| _normal_
 
