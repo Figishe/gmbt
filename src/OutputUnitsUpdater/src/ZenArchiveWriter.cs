@@ -43,7 +43,7 @@ namespace OutputUnitsUpdater
 
         public void Save()
         {
-            using (StreamWriter sw = new StreamWriter(new FileStream(_path, FileMode.Create), Encoding.Default))
+            using (StreamWriter sw = new StreamWriter(new FileStream(_path, FileMode.Create), Encoding.GetEncoding(1251)))
             {
                 writeHeader(sw);
 

@@ -35,7 +35,7 @@ namespace OutputUnitsUpdater
                         ? dialogPattern
                         : svmPattern;
 
-            var content = File.ReadAllText(file, Encoding.Default);
+            var content = File.ReadAllText(file, Encoding.GetEncoding(1251));
 
             content = stripComments(content);
 
